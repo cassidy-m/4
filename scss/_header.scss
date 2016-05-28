@@ -7,9 +7,21 @@
 		display: table;
 		margin: 0 auto;
 		padding: em(22px);
+		color: #fff;
+		
 	}
 
 	&__logo {
+		display: table-cell;
+		height: 50px;
+		vertical-align: middle;
+
+	}
+
+	&__menu {
+		height: 70px;
+		display: table-cell;
+		vertical-align: middle;
 
 	}
 }

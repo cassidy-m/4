@@ -6,3 +6,9 @@
 
 
 [psd template](https://drive.google.com/folderview?id=0B9XFQLfT7zXAckY2cUVISmRGOHM&usp=sharing) 
+
+скопировать картинку:
+1. найти ее в слоях: ктрл+курсор - справа в папке искать
+2. ctrl+a +c +n ok +v
+
+ctrl+shift+alt+s
