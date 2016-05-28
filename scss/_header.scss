@@ -1,0 +1,15 @@
+.header {
+	width: 100%;
+	background-color: $color--dark-black;
+	
+	&__container {
+		width: $size--container;
+		display: table;
+		margin: 0 auto;
+		padding: em(22px);
+	}
+
+	&__logo {
+
+	}
+}
