@@ -12,3 +12,7 @@
 2. ctrl+a +c +n ok +v
 
 ctrl+shift+alt+s
+
+
+
+Виталий Фридман

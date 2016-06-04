@@ -25,5 +25,11 @@
 	&_orange {
 		color: $color--font-orange;
 	}
+	&_upper {
+		text-transform: uppercase;
+	}
+	&_light {
+		font-weight: 300;
+	}
 	
 }

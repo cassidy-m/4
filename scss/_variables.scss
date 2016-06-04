@@ -22,3 +22,7 @@ $size--font-base: $size--font-small;
 @function em($size, $base: $size--font-base) {
 	@return $size/$base * 1em;
 }
+
+@mixin respond-to($param, $media) {
+	@media only screen and (#{$param}: $media) { @content; }
+}
