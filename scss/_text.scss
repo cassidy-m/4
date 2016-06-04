@@ -1,0 +1,29 @@
+.text {
+
+	&_x-large {
+		font-size: em($size--font-x-large);
+	}
+	&_large {
+		font-size: em($size--font-large);
+	}
+	&_regular {
+		font-size: em($size--font-regular);
+	}
+	&_small {
+		font-size: em($size--font-small);
+	}
+
+	&_white {
+		color: $color--font-white;
+	}
+	&_gray {
+		color: $color--font-gray;
+	}
+	&_dark {
+		color: $color--font-dark;
+	}
+	&_orange {
+		color: $color--font-orange;
+	}
+	
+}

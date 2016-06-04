@@ -1,0 +1,36 @@
+.menu {
+	display: block;
+	font-size: $size--font-base;
+	text-align: right;
+	margin-right: em(-45px);
+	list-style: none;
+
+	&__item {
+		margin-right: em(45px);
+		cursor: pointer;
+		display: inline-block;
+		}
+
+	&__link {
+		color: $color--font-white;
+		text-decoration: none;
+
+	}
+}
+
+.input-container {
+	width: em(360px);
+	height: em(360px);
+	background-color: $color--font-white;
+	border-radius: 3px;
+
+	&-header {
+		background-color: $color--white;
+		font-size: $size--font-large;
+		font-weight: bold;
+		font-color: $color--dark-grey;
+		text-align: center;
+		vertical-align: middle;
+		height: em(55px);
+	}
+}

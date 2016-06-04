@@ -1,0 +1,12 @@
+.button {
+	display: inline-block;
+	width: em(140px);
+	height: em(40px);
+	border: 2px solid;
+	border-color: $color--font-white;
+	background-color: transparent;
+	color: $color--font-white;
+	font-size: $size--font-small;
+	text-align: center;
+	vertical-align: middle;
+}
