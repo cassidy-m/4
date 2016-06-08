@@ -1,0 +1,17 @@
+.popup {
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	margin-left: -35%;
+	top: 150px;
+
+}
+
+.popup-wrapper {
+	position: fixed;
+	background: rgba(0, 0, 0, .3);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

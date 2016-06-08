@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../font/opensans-semibold/opensans-semibold-webfont.eot');
+    src: url('../font/opensans-semibold/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-semibold/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../font/opensans-semibold/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .text {
 
 	&_x-large {

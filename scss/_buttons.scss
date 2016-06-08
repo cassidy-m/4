@@ -8,6 +8,23 @@
 	cursor: pointer;
 }
 
+.social-btn {
+	height: 46px;
+	width: 60px;
+	background-image: url('../img/social-btn.png');
+	background-position: 15px 0;
+    background-repeat: no-repeat;
+
+    &_twitter {
+    	background-position: -77px 0;
+    }
+
+    &_google {
+    	background-position: -180px 0;
+    }
+
+}
+
 .tab-icon {
 	font-size: $size--font-small;
 	padding: em(50px, 14px) em(35px, 14px);
