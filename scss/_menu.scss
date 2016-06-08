@@ -18,19 +18,3 @@
 	}
 }
 
-.input-container {
-	width: em(360px);
-	height: em(360px);
-	background-color: $color--font-white;
-	border-radius: 3px;
-
-	&-header {
-		background-color: $color--white;
-		font-size: $size--font-large;
-		font-weight: bold;
-		color: $color--dark-grey;
-		text-align: center;
-		vertical-align: middle;
-		height: em(55px);
-	}
-}

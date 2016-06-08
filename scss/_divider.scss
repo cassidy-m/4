@@ -1,0 +1,15 @@
+.divider {
+	padding-bottom: em(40px);
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		display: block;
+		width: 65px;
+		height: 3px;
+		background-color: #fff; 
+	}
+}

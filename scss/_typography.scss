@@ -19,6 +19,12 @@
 	&_gray {
 		color: $color--font-gray;
 	}
+	&_dark-gray {
+		color: $color--font-dark-gray;
+	}
+	&_light-gray {
+		color: $color--font-double-light-gray;
+	}
 	&_dark {
 		color: $color--font-dark;
 	}
@@ -30,6 +36,9 @@
 	}
 	&_light {
 		font-weight: 300;
+	}
+	&_bold {
+		font-weight: bold;
 	}
 	
 }

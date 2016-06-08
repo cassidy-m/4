@@ -1,12 +1,32 @@
-.button {
-	display: inline-block;
-	width: em(140px);
-	height: em(40px);
-	border: 2px solid;
-	border-color: $color--font-white;
-	background-color: transparent;
-	color: $color--font-white;
+.btn {
+	
+	border: 2px solid $color--white;
+	background: transparent;
+	color: $color--white;
 	font-size: $size--font-small;
-	text-align: center;
-	vertical-align: middle;
+	padding: em(15px, 15px) em(30px, 15px);
+	cursor: pointer;
+}
+
+.tab-icon {
+	font-size: $size--font-small;
+	padding: em(50px, 14px) em(35px, 14px);
+	cursor: default;
+	margin-left: em(-7px, $size--container);
+
+	&_top {
+		border-radius: 3px 3px 0 0;
+		background-color: $color--orange;
+		border-bottom: 1px solid $color--white;
+	}
+
+	&_middle {
+		background-color: $color--dark-gray;
+		border-bottom: 1px solid $color--white;
+	}
+
+	&_bottom {
+		border-radius: 0 0 3px 3px;
+		background-color: $color--dark-gray;
+	}
 }

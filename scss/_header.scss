@@ -5,9 +5,19 @@
 	&_commercial {
 		background: url('../img/commercial-image.jpg');
 	}
+
+	&_social {
+		background-color: $color--font-white;
+		border-bottom: 2px solid $color--light-gray;
+	}
+	&_tabs {
+		background-color: $color--white;
+	}
 	
+	
+
 	&__container {
-		width: 1100px;
+		width: to-percent(1100px, 1400px);
 		display: table;
 		margin: 0 auto;
 		padding: em(22px) 0;
@@ -17,49 +27,99 @@
 			padding: em(110px) 0 em(140px) 0;
 		}
 
+		&_social {
+			padding: em(25px) 0 em(25px) 0
+		}
 
-		
-	}
-
-	&__logo {
-		display: table-cell;
-		vertical-align: middle;
-
-		&-big {
-			padding-bottom: em(35px);
+		&_tabs {
+			padding: em(145px) 0 em(115px) 0;
 		}
 
 	}
+
+	
+	&__logo {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
 
 	&__menu {
 		display: table-cell;
 		vertical-align: middle;
-		
 	}
+
 
 	&__commercial {
+		display: table-cell;
+		width: to-percent(700px);
+		padding-right: em(230px);
+		
+		@include respond-to(max-width, 1000px) {
+			padding-right: em(100px);
+		}
+
+		@include respond-to(max-width, 900px) {
+			display: block;
+			width: 100%;
+			margin-bottom: em(45px);
+		}
+
+		&-row {
+			margin-bottom: em(30px);
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
 
 		
 	}
 
-	&__info {
+	&__signup {
 		display: table-cell;
+		width: to-percent(400px);
 		vertical-align: bottom;
-		padding-right: em(230px);
-	}
-
-	&__form {
-		display: table-cell;
-		vertical-align: bottom;
-
-		&-head {
-			background-color: #f5f5f5;
+		
+		@include respond-to(max-width, 900px) {
+			display: block;
+			width: 100%;
 		}
 	}
 
-	&__comm {
-		padding-bottom: em(45px);
+
+	&__social-text {
+		display: table-cell;
+		width: to-percent(450px);
+		padding-right: em(85px);
+
+		&-row {
+			margin-bottom: em(15px);
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
 	}
+
+
+	&__social-icons {
+		display: table-cell;
+		width: to-percent(650px);
+		vertical-align: middle;
+		padding: 0 em(8px);
+
+	}
+
+	&__tabs-icons {
+		display: table-cell;
+		width: to-percent(205px);
+		padding-right: em(100px);
+
+		&_row {
+			margin-bottom: 0;
+			}
+		
+	}
+
 
 
 
