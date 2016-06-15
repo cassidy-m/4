@@ -71,7 +71,6 @@
 				margin-bottom: 0;
 			}
 		}
-
 		
 	}
 
@@ -109,16 +108,46 @@
 
 	}
 
-	&__tabs-icons {
+	&__tab-icons {
 		display: table-cell;
 		width: to-percent(205px);
 		padding-right: em(100px);
 
-		&_row {
+		&-row {
 			margin-bottom: 0;
 			}
-		
 	}
+
+	&__tab-text {
+		display: table-cell;
+		width: to-percent(580px);
+		padding-right: em(105px);
+		vertical-align: middle;
+
+		&-row {
+			&-1 {
+				margin-bottom: em(60px);
+				font-family: 'open_sansbold';
+			}
+			&-2 {
+				margin-bottom: em(30px);
+				font-family: 'open_sansregular';
+			}
+			&-3 {
+				margin-bottom: em(50px);
+				font-family: 'open_sansregular';
+			}
+			&-4 {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&__tab-image {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
 
 
 

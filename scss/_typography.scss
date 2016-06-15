@@ -3,7 +3,32 @@
     src: url('../font/opensans-semibold/opensans-semibold-webfont.eot');
     src: url('../font/opensans-semibold/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../font/opensans-semibold/opensans-semibold-webfont.woff2') format('woff2'),
-         url('../font/opensans-semibold/opensans-semibold-webfont.woff') format('woff');
+         url('../font/opensans-semibold/opensans-semibold-webfont.woff') format('woff'),
+         url('../font/opensans-semibold/opensans-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../font/opensans-bold/opensans-bold-webfont.eot');
+    src: url('../font/opensans-bold/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-bold/opensans-bold-webfont.woff2') format('woff2'),
+         url('../font/opensans-bold/opensans-bold-webfont.woff') format('woff'),
+         url('../font/opensans-semibold/opensans-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/opensans-regular/opensans-regular-webfont.eot');
+    src: url('../font/opensans-regular/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-regular/opensans-regular-webfont.woff2') format('woff2'),
+         url('../font/opensans-regular/opensans-regular-webfont.woff') format('woff'),
+         url('../font/opensans-regular/opensans-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 

@@ -6,14 +6,26 @@
 	font-size: $size--font-small;
 	padding: em(15px, 15px) em(30px, 15px);
 	cursor: pointer;
+
+	&-tab {
+		border: none;
+		background: $color--orange;
+		padding: em(15px, 15px) em(25px, 15px);
+		font-family: 'open_sanssemibold';
+		border-radius: 3px;
+	}
 }
 
 .social-btn {
 	height: 46px;
-	width: 60px;
+	width: 80px;
 	background-image: url('../img/social-btn.png');
 	background-position: 15px 0;
     background-repeat: no-repeat;
+    display: inline-block;
+    &:last-child {
+    	width: 60px;
+    }
 
     &_twitter {
     	background-position: -77px 0;
@@ -23,6 +35,22 @@
     	background-position: -180px 0;
     }
 
+    &_pinterest {
+    	background-position: -280px 0;
+    }
+
+    &_instagram {
+    	background-position: -380px 0;
+    }
+
+    &_stumbleupon {
+    	background-position: -480px 0;
+    }
+
+    &_rss {
+    	background-position: -580px 0;
+    }
+
 }
 
 .tab-icon {
@@ -30,6 +58,8 @@
 	padding: em(50px, 14px) em(35px, 14px);
 	cursor: default;
 	margin-left: em(-7px, $size--container);
+	font-family: 'open_sansbold';
+	white-space: nowrap;
 
 	&_top {
 		border-radius: 3px 3px 0 0;
